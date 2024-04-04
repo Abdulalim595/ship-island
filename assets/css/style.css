@@ -1,0 +1,1113 @@
+/*===================== REUSABLE  CSS AREA START =====================*/
+body {
+    font-family: 'fontspring_demo_-_proxima_nRg';
+}
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0; list-style: none;
+}
+
+button,input {
+    border: none;
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0; padding: 0;
+    font-family: 'proxima_novabold';
+    
+}
+
+p {
+    
+    margin: 0;padding: 0;
+    line-height: 30px;
+    font-family: 'proxima_novaregular';
+}
+
+.para {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+a, button {
+    text-decoration: none;
+    /* font-family: 'proxima_novabold'; */
+    /* font-family: 'proxima_nova_altbold'; */
+    font-family: 'proxima_novaregular';
+    
+}
+
+.btns {
+    text-decoration: none;
+    max-width: 248px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.title_span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2F50A2;
+    font-family: 'proxima_novaregular';
+}
+
+span {
+    font-family: 'proxima_novaregular';
+}
+
+.title_h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1680px;
+}
+/*===================== REUSABLE CSS AREA END =====================*/
+
+/*===================== OFFCANVAS CSS AREA START =====================*/
+.menu-close {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid #fff;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .offcanvas__mail img {
+    width: 18px;
+  }
+  
+  .offcanvas__mail a {
+    color: #fff;
+  }
+  
+  .offcanvas__mail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .offcanvas__phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .offcanvas__phone span {
+    color: #fff;
+    transform: rotate(93deg);
+  }
+  
+  .offcanvas__phone a {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .offcanvas__social a {
+    color: #fff;
+    font-size: 19px;
+  }
+  
+  .offcanvas__social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .offcanvas__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-close:hover {
+    color: #000;
+    background: #fff;
+  }
+  
+  .offcanvas-area {
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    width: 318px;
+    background: #0B212D;
+    z-index: 999;
+    padding-top: 35px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    visibility: hidden;
+    top: 0;
+    overflow-y: scroll;
+}
+  
+  .offcanvas-area.active {
+    left: 0;
+    visibility: visible;
+  }
+  
+  .offcanvas-area .main-menu ul li a {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    padding: 16px 22px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+  }
+  .offcanvas-area .main-menu ul li a:hover {
+    color: #000 !important;
+    background: #fff;
+  }
+  .offcanvas-area .main-menu ul li:first-child a {
+    border-top: 1px solid #fff;
+  }
+  
+  .offcanvas-area .main-menu ul li a:hover,
+  .offcanvas-area .main-menu ul li a[aria-expanded="true"] {
+    color: #d5d5d5;
+  }
+  
+  .offcanvas-menu .main-menu ul {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 35px;
+    list-style: none;
+  }
+  
+  .offcanvas-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    z-index: 99;
+  }
+  
+  .offcanvas-overlay.active {
+    opacity: 0.4;
+    visibility: visible;
+  }
+  
+  .menu-open {
+    font-size: 27px;
+    color: #e9ae26;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  
+  .offcanvas-menu .common-btn {
+    font-size: 17px;
+    padding: 9px 30px;
+    border-radius: 12px;
+  }
+  
+  .offcanvas-btn a {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  
+  .offcanvas-btn a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .offcanvas-area {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .offcanvas-area::-webkit-scrollbar {
+    display: none;
+  }
+  .offcanvas-menu {
+    margin-top: 100px;
+  }
+  
+  .offcanvas__contacts {
+    display: none;
+  }
+  
+  .offcanvas__contact ul {
+    margin-bottom: 15px !important;
+    padding-top: 80px !important;
+  }
+  
+  .offcanvas__contact ul li:first-child a {
+    border-top: none !important;
+  }
+  
+  .offcanvas__contact ul li a {
+    padding: 6px 22px !important;
+    border-bottom: none !important;
+  }
+  
+  .offcanvas__contact ul li a i {
+    margin-right: 10px;
+  }
+  
+  /*===================== OFFCANVAS CSS AREA END =====================*/
+
+/*===================== HEADER CSS AREA START =====================*/
+header#header__area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.header__phone,.header__mail {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header__social__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__phone img {
+    width: 15px;
+}
+
+.header__mail img {
+    width: 20px;
+}
+
+.header__social__list {
+    padding: 16px 0 12px;
+    background: #0B212D;
+}
+
+.header__phone a, .header__mail a {
+    font-weight: 700;
+    color: #fff;
+}
+
+.header__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__social a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.header__bar {
+    display: none;
+    margin-left: 18px;
+}
+
+.header__bar a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.header__logo a img {
+    width: 260px;
+}
+
+.header__nav__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav > ul li a {
+    padding: 10px 19px 11px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header__nav > ul li a:hover {
+    background: #F79328;
+}
+
+.header__logo__nav {
+    background: #0b212d5e;
+    padding: 18px 0px 5px;
+}
+
+.header__nav > a {
+    width: 205px;
+    height: 63px;
+    border-radius: 10px;
+    color: #fff;
+    background: #F79328;
+}
+
+.btns:hover {
+    background: #f08819;
+}
+
+/*===================== HEADER CSS AREA END =====================*/
+
+/*===================== HERO CSS AREA START =====================*/
+#hero__area {
+    background-image: url(../img/hero_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 380px 0 613px;
+    margin-bottom: 92px;
+}
+
+.hero__card1 {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 925px;
+    padding: 39px 80px 65px;
+    color: #fff;
+}
+
+.hero__card1 h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.hero__card1 p {
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+.hero__card1 a {
+    width: 205px;
+    height: 63px;
+    background: #F79328;
+    border-radius: 10px;
+    color: #fff;
+}
+
+hero__card2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.hero__card2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 50%;
+    border-radius: 40px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.hero__card__content {
+    max-width: 595px;
+    padding: 55px 35px 48px;
+    color: #fff;
+}
+
+.hero__card__content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.hero__card__content p {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 26px;
+}
+
+.hero__card__content a {
+    background: #F79328;
+    border-radius: 10px;
+    width: 154px;
+    height: 47px;
+    color: #fff;
+}
+/*===================== HERO CSS AREA END =====================*/
+
+/*===================== ABOARD CSS AREA START =====================*/
+section#aboard__area {
+    margin-bottom: 116px;
+}
+
+.aboard__img {
+    position: relative;
+}
+
+.aboard__video {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 28px 44px 12px 68px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: #44444408;
+    color: #fff;
+    text-align: end;
+}
+
+.aboard__video span {
+    font-size: 30px;
+}
+
+.aboard__video h2 {
+    font-size: 100px;
+    margin-top: -20px;
+    font-family: 'proxima_nova_altlight';
+}
+
+.aboard__video__btn, .aboard__video__btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboard__video__btn {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(-50%,-50%);
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    background: #ffffff24;
+}
+
+.aboard__video a {
+    background: #2F50A2;
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    color: #F79328;
+    font-size: 26px;
+}
+
+.aboard__content h2 {
+    margin-bottom: 10px;
+}
+
+.aboard__content h6 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.aboard__content {
+    max-width: 833px;
+    margin-left: 20px;
+}
+
+.aboard__btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 22px;
+}
+
+.aboard__btn a {
+    background: #F79328;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    height: 63px;
+}
+
+.aboard__btn a:nth-child(1) {
+    width: 205px;
+}
+
+.aboard__btn a:nth-child(2) {
+    width: 275px;
+}
+/*===================== ABOARD CSS AREA END =====================*/
+
+/*===================== COUNTER CSS AREA START =====================*/
+section#counter__area {
+    margin-bottom: 152px;
+}
+
+.counter__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.counter__card h2 {
+    font-size: 100px;
+    font-family: 'proxima_nova_altlight';
+}
+
+.counter__card h6 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.counter__wrap {
+    background-image: url(../img/line_shadow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 16px 0 30px;
+    background-color: #2F50A2;
+    border-radius: 20px;
+}
+/*===================== COUNTER CSS AREA END =====================*/
+
+/*===================== SERVICE CSS AREA START =====================*/
+.service__content > p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.service__rule {
+    margin-top: 20px;
+}
+
+.service__single__rule {
+    display: flex;
+    gap: 27px;
+}
+
+.service__single__rule span {
+    margin-top: 4px;
+}
+
+.service__single__rule p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.service__cards {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+.service__single__card {
+    text-align: center;
+    border: 1px solid #93D6D6;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px #cdcdcd;
+    padding: 46px 15px 31px;
+}
+
+section#service__area {
+    margin-bottom: 180px;
+}
+
+.service__single__card h6 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5F5F5F;
+    margin-top: 22px;
+}
+
+img.service_icon1,img.service_icon2 {
+    width: 103px;
+}
+
+img.service_icon3 {
+    width: 167px;
+}
+
+img.service_icon4 {
+    width: 96px;
+}
+
+img.service_icon5 {
+    width: 112px;
+}
+/*===================== SERVICE CSS AREA END =====================*/
+
+/*===================== FLEET CSS AREA START =====================*/
+#fleet__area {
+    background-image: url(../img/fleet-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 134px 0 91px;
+    margin-bottom: 135px;
+}
+
+.fleet__content h2 {
+    margin: 12px 0 7px;
+}
+
+.fleet__content p {
+    max-width: 680px;
+    margin-bottom: 25px;
+}
+
+.fleet__single__rule img {
+    width: 48px;
+}
+
+.fleet__single__rule {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin-bottom: 18px;
+}
+
+.fleet__single__rule h6 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fleet__content a {
+    background: #F79328;
+    border-radius: 10px;
+    width: 154px;
+    height: 47px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 57px;
+}
+/*===================== FLEET CSS AREA END =====================*/
+
+/*===================== BOOKING CSS AREA START =====================*/
+section#booking__area {
+    margin-bottom: 110px;
+}
+
+.booking__card {
+    border-radius: 20px;
+    border: 1px solid #70707026;
+    box-shadow: 0px 3px 6px #70707026;
+}
+
+.booking__card__content {
+    padding: 38px 32px 32px;
+    text-align: center;
+}
+
+.booking__card__content h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.booking__card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+p.para.para4 {
+    margin-top: 66px;
+}
+
+p.para.para2 {
+    margin-bottom: 69px;
+}
+
+.booking__card__btn a {
+    width: 154px;
+    height: 47px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.booking__card__btn a:nth-child(1) {
+    background: #F79328;
+}
+
+.booking__card__btn a:nth-child(2) {
+    background: #2F50A2;
+}
+/*===================== BOOKING CSS AREA END =====================*/
+
+/*===================== TESTIMONIAL CSS AREA START =====================*/
+section#testimonial__area {
+    padding: 132px 0px 124px;
+    background: #F2F2F2;
+}
+
+.testimonial__content > h6 {
+    color: #505050;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.testimonial__card {
+    margin-top: 73px;
+}
+
+.testimonial__single__card p {
+    color: #505050;
+}
+
+.testimonial__user {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 49px;
+}
+
+.testimonial__user img {
+    width: 84px !important;
+}
+
+.user__name h6 {
+    color: #F79328;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.user__name a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #505050;
+}
+
+.testimonial__card .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.testimonial__card .owl-dots button.owl-dot {
+    margin: 0px;
+}
+
+.testimonial__card .owl-dots .owl-dot span {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    background: #f7932887;
+}
+
+.testimonial__card .owl-dots .owl-dot.active span, .testimonial__card .owl-dots .owl-dot:hover span {
+    background: #F79328;
+}
+/*===================== TESTIMONIAL CSS AREA END =====================*/
+
+/*===================== JOIN CSS AREA START =====================*/
+#join__area {
+    background-image: url(../img/join_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 94px 0 69px;
+    margin-bottom: 98px;
+}
+
+.join__card {
+    padding: 51px 34px 36px 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: #00000030;
+    color: #fff;
+}
+
+.join__card a {
+    background: #F79328;
+    border-radius: 10px;
+    width: 154px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.join__btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join__play__btn {
+    width: 171px;
+    height: 171px;
+    border-radius: 50%;
+    background: #ffffff5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join__play__btn a {
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    background: #2F50A2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F79328;
+    font-size: 60px;
+}
+/*===================== JOIN CSS AREA END =====================*/
+
+/*===================== BLOG CSS AREA START =====================*/
+.blog__title {
+    margin-bottom: 24px;
+}
+
+.blog__card__content {
+    padding: 19px 17px 42px 29px;
+}
+
+.blog__card__content span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F79328;
+}
+
+.blog__card__content h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.blog__card__content p {
+    line-height: 21px;
+    color: #505050;
+}
+
+.blog__card__content a {
+    background: #F79328;
+    border-radius: 10px;
+    width: 154px;
+    height: 47px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 21px;
+}
+
+section#blog__area {
+    margin-bottom: 39px;
+}
+/*===================== BLOG CSS AREA END =====================*/
+
+/*===================== CONTACT CSS AREA START =====================*/
+section#contact__area {
+    padding: 46px 0 20px;
+    background: #F79328;
+}
+
+img.c_phone {
+    width: 57px;
+}
+
+img.c_mail {
+    width: 50px;
+}
+
+img.location {
+    width: 37px;
+}
+
+img.c_logo {
+    width: 266px;
+}
+
+.contact__card {
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.number a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+/*===================== CONTACT CSS AREA END =====================*/
+
+/*===================== FOOTER CSS AREA START =====================*/
+#footer__area {
+    background-image: url(../img/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 116px 0 38px;
+    background-color: #0e0f14eb;
+}
+
+.footer__card > h6 {
+    color: #F79328;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.footer__card {
+    color: #fff;
+}
+
+.footer__card > p {
+    max-width: 302px;
+}
+
+.footer__social {
+    margin-top: 22px;
+}
+
+.footer__social h6 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.all__social {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.all__social a {
+    border-radius: 20px;
+    background: #F79328;
+    width: 57px;
+    height: 57px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer__card2 {
+    margin-left: 70px;
+}
+
+.footer__card > ul li a {
+    font-size: 18px;
+    margin-bottom: 13px;
+    display: inline-block;
+    color: #fff;
+}
+
+.footer__text {
+    max-width: 409px;
+    height: 71px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E9EFF3;
+    padding: 26px;
+    margin-top: 15px;
+}
+
+.footer__text input {
+    background: transparent;
+    color: #fff;
+    font-family: 'proxima_novaregular';
+}
+
+.footer__text button {
+    background: transparent;
+}
+
+.copyright {
+    margin-top: 42px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'proxima_novaregular';
+}
+/*===================== FOOTER CSS AREA END =====================*/

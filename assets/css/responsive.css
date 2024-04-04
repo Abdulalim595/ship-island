@@ -1,0 +1,2187 @@
+/* XXL Device :1200px. */
+@media (min-width: 1400px) and (max-width: 1680px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px;
+    }
+
+    .header__social__list {
+        padding: 8px 0 8px;
+    }
+    
+    .header__logo a img {
+        width: 200px;
+    }
+    
+    .header__nav > ul li a {
+        padding: 6px 13px;
+        font-size: 16px;
+    }
+    
+    .header__nav > a {
+        width: 148px;
+        height: 50px;
+        font-size: 16px;
+    }
+    
+    .header__logo__nav {
+        padding: 4px 0px 4px;
+    }
+
+    #hero__area {
+        padding: 280px 0 500px;
+    }
+    
+    .hero__card1 {
+        padding: 28px 40px;
+        max-width: 700px;
+    }
+    
+    .hero__card1 h1 {
+        font-size: 55px;
+    }
+    
+    .hero__card1 p {
+        font-size: 28px;
+    }
+    
+    .hero__card1 a {
+        width: 168px;
+        height: 55px;
+    }
+    
+    .hero__card2 {
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .hero__card__content {
+        padding: 20px 30px 22px 30px;
+        max-width: 445px;
+    }
+    
+    .hero__card__content p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+    
+    .hero__card__content h2 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    
+    .hero__card__content a {
+        width: 130px;
+        font-size: 16px;
+    }
+    
+    .hero__card__img {
+        height: 100%;
+    }
+    
+    .hero__card__img img {
+        height: 100%;
+    }
+    
+    .aboard__video span {
+        font-size: 26px;
+    }
+    
+    .aboard__video h2 {
+        font-size: 68px;
+    }
+    
+    .aboard__video {
+        padding: 23px 38px 7px 64px;
+    }
+    
+    .aboard__video__btn {
+        width: 88px;
+        height: 88px;
+    }
+    
+    .aboard__video a {
+        width: 65px;
+        height: 66px;
+    }
+    
+    .aboard__content h6 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    
+    .aboard__btn {
+        gap: 25px;
+    }
+    
+    .aboard__btn a:nth-child(1) {
+        width: 180px;
+        height: 60px;
+    }
+    
+    .aboard__btn a:nth-child(2) {
+        width: 210px;
+        height: 60px;
+    }
+    
+    section#aboard__area {
+        margin-bottom: 90px;
+    }
+    
+    .counter__card h2 {
+        font-size: 80px;
+    }
+    
+    .counter__card h6 {
+        font-size: 24px;
+    }
+    
+    section#counter__area {
+        margin-bottom: 120px;
+    }
+    
+    .service__single__rule {
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .service__single__rule p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .title_h2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    
+    .title_span {
+        font-size: 26px;
+    }
+    
+    .service__cards {
+        margin-top: 80px;
+    }
+    
+    .service__single__card h6 {
+        font-size: 24px;
+    }
+    
+    img.service_icon1, img.service_icon2 {
+        width: 80px;
+    }
+    
+    img.service_icon3 {
+        width: 120px;
+    }
+    
+    img.service_icon4 {
+        width: 74px;
+    }
+    
+    img.service_icon5 {
+        width: 89px;
+    }
+    
+    .service__single__card {
+        padding: 34px 12px 12px;
+    }
+    
+    section#service__area {
+        margin-bottom: 108px;
+    }
+
+    #fleet__area {
+        padding: 80px 0 60px;
+        margin-bottom: 100px;
+    }
+    
+    .fleet__single__rule img {
+        width: 40px;
+    }
+    
+    .fleet__single__rule {
+        gap: 30px;
+    }
+    
+    .fleet__single__rule h6 {
+        font-size: 26px;
+    }
+    
+    .fleet__content a {
+        margin-top: 40px;
+    }
+
+    .booking__card__content {
+        padding: 12px 22px 18px;
+    }
+    
+    .booking__card__content h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    
+    .booking__card__btn {
+        margin-top: 21px;
+    }
+    
+    p.para.para4 {
+        margin-top: 59px;
+    }
+    
+    p.para.para1 {
+        margin-bottom: 44px;
+    }
+
+    p.para.para2 {
+        margin-bottom: 45px;
+    }
+
+    section#booking__area {
+        margin-bottom: 90px;
+    }
+    
+    .testimonial__single__card p {
+        font-size: 15px;
+    }
+
+    .testimonial__content > h6 {
+        font-size: 26px;
+    }
+    
+    .testimonial__card {
+        margin-top: 40px;
+    }
+    
+    .testimonial__user {
+        margin-top: 30px;
+    }
+    
+    .user__name a {
+        font-size: 20px;
+    }
+    
+    .user__name h6 {
+        font-size: 18px;
+    }
+    
+    .testimonial__card .owl-dots {
+        gap: 12px;
+    }
+    
+    section#testimonial__area {
+        padding: 65px 0px 55px;
+    }
+
+    .join__play__btn {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .join__play__btn a {
+        width: 95px;
+        height: 95px;
+        font-size: 45px;
+    }
+    
+    #join__area {
+        margin-bottom: 68px;
+    }
+
+    .blog__card__content {
+        padding: 10px 14px 22px 18px;
+    }
+    
+    .blog__card__content span {
+        font-size: 16px;
+    }
+    
+    .blog__card__content h5 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .blog__card__content a {
+        width: 130px;
+    }
+
+    img.c_logo {
+        width: 210px;
+    }
+    
+    .number h5 {
+        font-size: 23px;
+    }
+    
+    .number a {
+        font-size: 14px;
+    }
+    
+    img.c_phone {
+        width: 48px;
+    }
+    
+    img.c_mail {
+        width: 40px;
+    }
+    
+    img.location {
+        width: 30px;
+    }
+    
+    .contact__card {
+        gap: 12px;
+    }
+    
+    section#contact__area {
+        padding: 35px 0 15px;
+    }
+
+    footer#footer__area {
+        padding: 80px 0 18px;
+    }
+    
+    .footer__text {
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .all__social a {
+        border-radius: 14px;
+        width: 52px;
+        height: 52px;
+    }
+    
+    .all__social {
+        gap: 12px;
+    }
+    
+    .footer__card > ul li a {
+        margin-bottom: 8px;
+    }
+}
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1140px;
+    }
+
+    .header__social__list {
+        padding: 8px 0 8px;
+    }
+    
+    .header__logo a img {
+        width: 163px;
+    }
+    
+    .header__nav > ul li a {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    
+    .header__nav > a {
+        width: 110px;
+        height: 46px;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    
+    .header__logo__nav {
+        padding: 4px 0px 4px;
+    }
+
+    #hero__area {
+        padding: 248px 0 400px;
+        margin-bottom: 75px;
+    }
+    
+    .hero__card1 {
+        padding: 28px 40px;
+        max-width: 580px;
+    }
+    
+    .hero__card1 h1 {
+        font-size: 48px;
+    }
+    
+    .hero__card1 p {
+        font-size: 24px;
+    }
+    
+    .hero__card1 a {
+        width: 152px;
+        height: 52px;
+    }
+    
+    .hero__card2 {
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .hero__card__content {
+        padding: 20px 30px 22px 30px;
+        max-width: 410px;
+    }
+    
+    .hero__card__content p {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 18px;
+    }
+    
+    .hero__card__content h2 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    
+    .hero__card__content a {
+        width: 120px;
+        height: 42px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    
+    .hero__card__img {
+        max-width: 200px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .hero__card__img img {
+        height: 100%;
+    }
+    
+    .aboard__video span {
+        font-size: 22px;
+    }
+    
+    .aboard__video h2 {
+        font-size: 58px;
+        margin-top: -10px;
+    }
+    
+    .aboard__video {
+        padding: 23px 38px 7px 64px;
+    }
+    
+    .aboard__video__btn {
+        width: 82px;
+        height: 82px;
+    }
+    
+    .aboard__video a {
+        width: 58px;
+        height: 58px;
+    }
+    
+    .aboard__content h6 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+    }
+    
+    .aboard__btn {
+        gap: 20px;
+    }
+    
+    .aboard__btn a:nth-child(1) {
+        width: 148px;
+        height: 52px;
+    }
+    
+    .aboard__btn a:nth-child(2) {
+        width: 190px;
+        height: 52px;
+    }
+    
+    section#aboard__area {
+        margin-bottom: 74px;
+    }
+    
+    .counter__card h2 {
+        font-size: 64px;
+    }
+    
+    .counter__card h6 {
+        font-size: 22px;
+    }
+    
+    section#counter__area {
+        margin-bottom: 82px;
+    }
+    
+    .service__single__rule {
+        gap: 20px;
+    }
+    
+    .service__single__rule p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .title_h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    
+    .title_span {
+        font-size: 20px;
+    }
+    
+    .service__cards {
+        margin-top: 60px;
+        gap: 15px;
+    }
+    
+    .service__single__card h6 {
+        font-size: 20px;
+    }
+    
+    img.service_icon1, img.service_icon2 {
+        width: 68px;
+    }
+    
+    img.service_icon3 {
+        width: 99px;
+    }
+    
+    img.service_icon4 {
+        width: 63px;
+    }
+    
+    img.service_icon5 {
+        width: 72px;
+    }
+    
+    .service__single__card {
+        padding: 34px 12px 12px;
+    }
+    
+    section#service__area {
+        margin-bottom: 88px;
+    }
+
+    #fleet__area {
+        padding: 55px 0 60px;
+        margin-bottom: 100px;
+    }
+    
+    .fleet__single__rule img {
+        width: 40px;
+    }
+    
+    .fleet__single__rule {
+        gap: 25px;
+    }
+    
+    .fleet__single__rule h6 {
+        font-size: 20px;
+    }
+    
+    .fleet__content a {
+        margin-top: 38px;
+        width: 130px;
+        border-radius: 6px;
+    }
+
+    .booking__card__content {
+        padding: 12px 22px 18px;
+    }
+    
+    .booking__card__content h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    
+    .booking__card__btn {
+        margin-top: 21px;
+        gap: 15px;
+    }
+    
+    .booking__card__btn a {
+        height: 44px;
+        border-radius: 5px;
+    }
+
+    p.para.para4 {
+        margin-top: 59px;
+    }
+    
+    p.para.para1 {
+        margin-bottom: 44px;
+    }
+
+    p.para.para2 {
+        margin-bottom: 45px;
+    }
+
+    section#booking__area {
+        margin-bottom: 68px;
+    }
+    
+    .testimonial__content > h6 {
+        font-size: 26px;
+    }
+    
+    .testimonial__card {
+        margin-top: 40px;
+    }
+    
+    .testimonial__user {
+        margin-top: 30px;
+    }
+    
+    .user__name a {
+        font-size: 20px;
+    }
+    
+    .user__name h6 {
+        font-size: 18px;
+    }
+    
+    .testimonial__card .owl-dots {
+        gap: 12px;
+    }
+    
+    section#testimonial__area {
+    padding: 68px 0px 61px;
+}
+
+    .join__play__btn {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .join__play__btn a {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    #join__area {
+        margin-bottom: 68px;
+    }
+
+    .blog__card__content {
+        padding: 10px 14px 22px 18px;
+    }
+    
+    .blog__card__content span {
+        font-size: 15px;
+    }
+    
+    .blog__card__content h5 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    
+    .blog__card__content a {
+        width: 118px;
+        height: 43px;
+        border-radius: 6px;
+    }
+
+    img.c_logo {
+        width: 180px;
+    }
+    
+    .number h5 {
+        font-size: 20px;
+    }
+    
+    .number a {
+        font-size: 13px;
+    }
+    
+    img.c_phone {
+        width: 40px;
+    }
+    
+    img.c_mail {
+        width: 35px;
+    }
+    
+    img.location {
+        width: 25px;
+    }
+    
+    .contact__card {
+        gap: 12px;
+    }
+    
+    section#contact__area {
+        padding: 35px 0 15px;
+    }
+
+    footer#footer__area {
+        padding: 60px 0 18px;
+    }
+    
+    .footer__text {
+        padding: 15px;
+        height: 50px;
+    }
+    
+    .all__social a {
+        border-radius: 12px;
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
+    
+    .all__social {
+        gap: 12px;
+    }
+    
+    .footer__card > ul li a {
+        margin-bottom: 8px;
+    }
+
+    .footer__text button {
+        background: transparent;
+        width: 24px;
+    }
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 960px;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header__bar {
+        display: block;
+    }
+
+    .header__nav > ul {
+        display: none;
+    }
+    
+    .header__phone, .header__mail {
+        gap: 10px;
+    }
+    
+    .header__phone a, .header__mail a {
+        font-size: 14px;
+    }
+    
+    .header__phone img {
+        width: 14px;
+    }
+    
+    .header__mail img {
+        width: 18px;
+    }
+
+    .header__social__list {
+        padding: 8px 0 8px;
+    }
+    
+    .header__logo a img {
+        width: 163px;
+    }
+    
+    .header__nav > ul li a {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    
+    .header__nav > a {
+        width: 110px;
+        height: 46px;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    
+    .header__logo__nav {
+        padding: 4px 0px 4px;
+    }
+
+    #hero__area {
+        padding: 248px 0 300px;
+        margin-bottom: 75px;
+    }
+    
+    .hero__card1 {
+        padding: 20px 30px;
+        max-width: 481px;
+    }
+    
+    .hero__card1 h1 {
+        font-size: 40px;
+    }
+    
+    .hero__card1 p {
+        font-size: 22px;
+    }
+    
+    .hero__card1 a {
+        width: 144px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    
+    .hero__card2 {
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .hero__card__content {
+        padding: 15px 13px 15px 20px;
+        max-width: 320px;
+    }
+    
+    .hero__card__content p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 11px;
+    }
+    
+    .hero__card__content h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    
+    .hero__card__content a {
+        width: 100px;
+        height: 39px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    
+    .hero__card__img {
+        max-width: 178px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .hero__card__img img {
+        height: 100%;
+    }
+    
+    .aboard__video span {
+        font-size: 22px;
+    }
+    
+    .aboard__video h2 {
+        font-size: 58px;
+        margin-top: -10px;
+    }
+    
+    .aboard__video {
+        padding: 23px 38px 7px 64px;
+    }
+    
+    .aboard__video__btn {
+        width: 82px;
+        height: 82px;
+    }
+    
+    .aboard__video a {
+        width: 58px;
+        height: 58px;
+    }
+    
+    .aboard__content h6 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+    
+    .aboard__btn {
+        gap: 20px;
+    }
+    
+    .aboard__btn a:nth-child(1) {
+        width: 130px;
+        height: 48px;
+    }
+    
+    .aboard__btn a:nth-child(2) {
+        width: 190px;
+        height: 48px;
+    }
+    
+    section#aboard__area {
+        margin-bottom: 74px;
+    }
+    
+    .counter__card h2 {
+        font-size: 40px;
+    }
+    
+    .counter__card h6 {
+        font-size: 20px;
+    }
+    
+    section#counter__area {
+        margin-bottom: 82px;
+    }
+    
+    .service__single__rule {
+        gap: 20px;
+    }
+    
+    .service__single__rule p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .title_h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    
+    .title_span {
+        font-size: 18px;
+    }
+    
+    .service__cards {
+        margin-top: 60px;
+        gap: 15px;
+    }
+    
+    .service__single__card h6 {
+        font-size: 16px;
+    }
+    
+    img.service_icon1, img.service_icon2 {
+        width: 54px;
+    }
+    
+    img.service_icon3 {
+        width: 84px;
+    }
+    
+    img.service_icon4 {
+        width: 52px;
+    }
+    
+    img.service_icon5 {
+        width: 59px;
+    }
+    
+    .service__single__card {
+        padding: 34px 12px 12px;
+    }
+    
+    section#service__area {
+        margin-bottom: 68px;
+    }
+
+    #fleet__area {
+        padding: 45px 0 60px;
+        margin-bottom: 80px;
+    }
+    
+    .fleet__single__rule img {
+        width: 40px;
+    }
+    
+    .fleet__single__rule {
+        gap: 25px;
+    }
+    
+    .fleet__single__rule h6 {
+        font-size: 20px;
+    }
+    
+    .fleet__content a {
+        margin-top: 38px;
+        width: 130px;
+        border-radius: 6px;
+    }
+
+    .booking__card__content {
+        padding: 12px 14px 18px;
+    }
+    
+    .booking__card__content p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .booking__card__content h4 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 12px;
+    }
+    
+    .booking__card__btn {
+        margin-top: 21px;
+        gap: 15px;
+    }
+    
+    .booking__card__btn a {
+        height: 40px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+    p.para.para4 {
+        margin-top: 38px;
+    }
+    
+    p.para.para1 {
+        margin-bottom: 44px;
+    }
+
+    p.para.para2 {
+        margin-bottom: 45px;
+    }
+
+    section#booking__area {
+        margin-bottom: 68px;
+    }
+    
+    .testimonial__content > h6 {
+        font-size: 22px;
+    }
+    
+    .testimonial__card {
+        margin-top: 22px;
+    }
+    
+    .testimonial__user {
+        margin-top: 30px;
+    }
+    
+    .user__name a {
+        font-size: 20px;
+    }
+    
+    .user__name h6 {
+        font-size: 18px;
+    }
+    
+    .testimonial__card .owl-dots {
+        gap: 12px;
+    }
+    
+    section#testimonial__area {
+        padding: 68px 0px 61px;
+    }
+
+    .join__play__btn {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .join__play__btn a {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    #join__area {
+        margin-bottom: 68px;
+        padding: 50px 0 50px;
+    }
+
+    .join__card {
+        padding: 30px 20px 30px 30px;
+    }
+    s
+    .blog__card__content {
+        padding: 10px 8px 22px 10px;
+    }
+    
+    .blog__card__content span {
+        font-size: 15px;
+        line-height: 20px;
+        display: inline-block;
+    }
+    
+    .blog__card__content h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .blog__card__content a {
+        width: 118px;
+        height: 43px;
+        border-radius: 6px;
+    }
+
+    img.c_logo {
+        width: 180px;
+    }
+    
+    .number h5 {
+        font-size: 20px;
+    }
+    
+    .number a {
+        font-size: 13px;
+    }
+    
+    img.c_phone {
+        width: 40px;
+    }
+    
+    img.c_mail {
+        width: 35px;
+    }
+    
+    img.location {
+        width: 25px;
+    }
+    
+    .contact__card {
+        gap: 12px;
+        justify-content: start;
+    }
+    
+    section#contact__area {
+        padding: 35px 0 15px;
+    }
+
+    footer#footer__area {
+        padding: 60px 0 18px;
+    }
+    
+    .footer__card2 {
+        margin-left: 0px;
+    }
+
+    .footer__text {
+        padding: 15px;
+        height: 50px;
+    }
+    
+    .all__social a {
+        border-radius: 12px;
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
+    
+    .all__social {
+        gap: 12px;
+    }
+    
+    .footer__card > ul li a {
+        margin-bottom: 8px;
+    }
+
+    .footer__text button {
+        background: transparent;
+        width: 24px;
+    }
+    
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 720px;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .header__bar {
+        display: block;
+    }
+
+    .header__nav > ul {
+        display: none;
+    }
+    
+    .header__phone, .header__mail {
+        gap: 10px;
+    }
+    
+    .header__phone a, .header__mail a {
+        font-size: 14px;
+    }
+    
+    .header__phone img {
+        width: 14px;
+    }
+    
+    .header__mail img {
+        width: 18px;
+    }
+
+    .header__social__list {
+        padding: 8px 0 8px;
+    }
+    
+    .header__logo a img {
+        width: 163px;
+    }
+    
+    .header__nav > ul li a {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    
+    .header__nav > a {
+        width: 110px;
+        height: 46px;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    
+    .header__logo__nav {
+        padding: 4px 0px 4px;
+    }
+
+    #hero__area {
+        padding: 200px 0 72px;
+        margin-bottom: 75px;
+    }
+    
+    .hero__card1 {
+        padding: 20px 30px;
+        max-width: 481px;
+        margin: 0 auto 30px;
+    }
+    
+    .hero__card1 h1 {
+        font-size: 40px;
+    }
+    
+    .hero__card1 p {
+        font-size: 22px;
+    }
+    
+    .hero__card1 a {
+        width: 125px;
+        height: 44px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    
+    .hero__card2 {
+        border-radius: 0px;
+        position: unset;
+        max-width: 481px !important;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .hero__card__content {
+        padding: 15px 13px 15px 20px;
+        max-width: 320px;
+    }
+    
+    .hero__card__content p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 11px;
+    }
+    
+    .hero__card__content h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    
+    .hero__card__content a {
+        width: 100px;
+        height: 39px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    
+    .hero__card__img {
+        max-width: 178px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .hero__card__img img {
+        height: 100%;
+    }
+    
+    .aboard__video span {
+        font-size: 22px;
+    }
+    
+    .aboard__video h2 {
+        font-size: 58px;
+        margin-top: -10px;
+    }
+    
+    .aboard__video {
+        padding: 23px 38px 7px 64px;
+    }
+    
+    .aboard__video__btn {
+        width: 82px;
+        height: 82px;
+    }
+    
+    .aboard__video a {
+        width: 58px;
+        height: 58px;
+    }
+    
+    .aboard__content h6 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+    
+    .aboard__btn {
+        gap: 20px;
+    }
+    
+    .aboard__btn a:nth-child(1) {
+        width: 130px;
+        height: 48px;
+    }
+    
+    .aboard__btn a:nth-child(2) {
+        width: 190px;
+        height: 48px;
+    }
+    
+    section#aboard__area {
+        margin-bottom: 74px;
+    }
+    
+    .counter__card h2 {
+        font-size: 40px;
+    }
+    
+    .counter__card h6 {
+        font-size: 20px;
+    }
+    
+    section#counter__area {
+        margin-bottom: 82px;
+    }
+    
+    .service__single__rule {
+        gap: 20px;
+    }
+    
+    .service__single__rule p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .title_h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    
+    .title_span {
+        font-size: 18px;
+    }
+    
+    .service__cards {
+        margin-top: 60px;
+        gap: 15px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .service__single__card h6 {
+        font-size: 16px;
+    }
+    
+    img.service_icon1, img.service_icon2 {
+        width: 54px;
+    }
+    
+    img.service_icon3 {
+        width: 84px;
+    }
+    
+    img.service_icon4 {
+        width: 52px;
+    }
+    
+    img.service_icon5 {
+        width: 59px;
+    }
+    
+    .service__single__card {
+        padding: 34px 12px 12px;
+    }
+    
+    section#service__area {
+        margin-bottom: 68px;
+    }
+
+    #fleet__area {
+        padding: 45px 0 60px;
+        margin-bottom: 80px;
+    }
+    
+    .fleet__single__rule img {
+        width: 40px;
+    }
+    
+    .fleet__single__rule {
+        gap: 25px;
+    }
+    
+    .fleet__single__rule h6 {
+        font-size: 20px;
+    }
+    
+    .fleet__content a {
+        margin-top: 38px;
+        width: 130px;
+        border-radius: 6px;
+    }
+
+    .booking__card__content {
+        padding: 12px 14px 18px;
+    }
+    
+    .booking__card__content p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .booking__card__content h4 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 12px;
+    }
+    
+    .booking__card__btn {
+        margin-top: 21px;
+        gap: 15px;
+    }
+    
+    .booking__card__btn a {
+        height: 40px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+    p.para.para4 {
+        margin-top: 0px;
+    }
+    
+    p.para.para1 {
+        /* margin-bottom: 44px; */
+    }
+
+    p.para.para2 {
+        margin-bottom: 45px;
+    }
+
+    section#booking__area {
+        margin-bottom: 68px;
+    }
+    
+    .testimonial__content > h6 {
+        font-size: 19px;
+    }
+    
+    .testimonial__card {
+        margin-top: 15px;
+    }
+    
+    .testimonial__user {
+        margin-top: 18px;
+    }
+    
+    .user__name a {
+        font-size: 20px;
+    }
+    
+    .user__name h6 {
+        font-size: 18px;
+    }
+    
+    .testimonial__card .owl-dots {
+        gap: 6px;
+    }
+
+    .testimonial__card .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+    }
+    
+    section#testimonial__area {
+        padding: 50px 0px 46px;
+    }
+
+    .join__play__btn {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .join__play__btn a {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    #join__area {
+        margin-bottom: 55px;
+        padding: 50px 0 50px;
+    }
+
+    .join__card {
+        padding: 30px 20px 30px 30px;
+    }
+    s
+    .blog__card__content {
+        padding: 10px 8px 22px 10px;
+    }
+    
+    .blog__card__content span {
+        font-size: 15px;
+        line-height: 20px;
+        display: inline-block;
+    }
+    
+    .blog__card__content h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .blog__card__content a {
+        width: 118px;
+        height: 43px;
+        border-radius: 6px;
+    }
+
+    img.c_logo {
+        width: 180px;
+    }
+    
+    .number h5 {
+        font-size: 20px;
+    }
+    
+    .number a {
+        font-size: 13px;
+    }
+    
+    img.c_phone {
+        width: 40px;
+    }
+    
+    img.c_mail {
+        width: 35px;
+    }
+    
+    img.location {
+        width: 25px;
+    }
+    
+    .contact__card {
+        gap: 12px;
+        justify-content: start;
+    }
+    
+    section#contact__area {
+        padding: 35px 0 15px;
+    }
+
+    footer#footer__area {
+        padding: 60px 0 18px;
+    }
+    
+    .footer__card2 {
+        margin-left: 0px;
+    }
+
+    .footer__text {
+        padding: 15px;
+        height: 50px;
+    }
+    
+    .all__social a {
+        border-radius: 10px;
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+    
+    .all__social {
+        gap: 12px;
+    }
+    
+    .footer__card > ul li a {
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+
+    .footer__social h6 {
+        font-size: 20px;
+    }
+
+    .footer__card > h6 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .footer__text button {
+        background: transparent;
+        width: 24px;
+    }
+}
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .header__bar {
+        display: block;
+    }
+
+    .header__social__wrap {
+        justify-content: end;
+    }
+    
+    .header__contact {
+        display: none;
+    }
+
+    .header__nav > ul {
+        display: none;
+    }
+    
+    .header__phone, .header__mail {
+        gap: 10px;
+    }
+    
+    .header__phone a, .header__mail a {
+        font-size: 14px;
+    }
+    
+    .header__phone img {
+        width: 14px;
+    }
+    
+    .header__mail img {
+        width: 18px;
+    }
+
+    .header__social__list {
+        padding: 8px 0 8px;
+    }
+    
+    .header__logo a img {
+        width: 135px;
+    }
+    
+    .header__nav > ul li a {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    
+    .header__nav > a {
+        width: 95px;
+        height: 38px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    
+    .header__logo__nav {
+        padding: 4px 0px 4px;
+    }
+
+    #hero__area {
+        padding: 200px 0 72px;
+        margin-bottom: 60px;
+    }
+    
+    .hero__card1 {
+        padding: 20px 30px;
+        max-width: 481px;
+        margin: 0 auto 30px;
+    }
+    
+    .hero__card1 h1 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    
+    .hero__card1 p {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    
+    .hero__card1 a {
+        width: 110px;
+        height: 42px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    
+    .hero__card2 {
+        border-radius: 0px;
+        position: unset;
+        max-width: 481px !important;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .hero__card__content {
+        padding: 15px 13px 15px 20px;
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .hero__card__content p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 11px;
+    }
+    
+    .hero__card__content h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    
+    .hero__card__content a {
+        width: 88px;
+        height: 38px;
+        font-size: 13px;
+        border-radius: 4px;
+    }
+    
+    .hero__card__img {
+        max-width: 175px;
+        height: 100%;
+        position: unset;
+        top: 0;
+        right: 0;
+    }
+    
+    .hero__card__img img {
+        height: 100%;
+    }
+    
+    .aboard__video span {
+        font-size: 22px;
+    }
+    
+    .aboard__video h2 {
+        font-size: 48px;
+        margin-top: -11px;
+    }
+    
+    .aboard__video {
+        padding: 15px 18px 2px 62px;
+    }
+    
+    .aboard__video__btn {
+        width: 72px;
+        height: 72px;
+    }
+    
+    .aboard__video a {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .aboard__content h6 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+    
+    .aboard__btn {
+        gap: 20px;
+    }
+    
+    .aboard__btn a:nth-child(1) {
+        width: 115px;
+        height: 44px;
+    }
+    
+    .aboard__btn a:nth-child(2) {
+        width: 176px;
+        height: 44px;
+    }
+    
+    section#aboard__area {
+        margin-bottom: 60px;
+    }
+    
+    .counter__card h2 {
+        font-size: 40px;
+    }
+    
+    .counter__card h6 {
+        font-size: 18px;
+    }
+    
+    section#counter__area {
+        margin-bottom: 60px;
+    }
+    
+    .service__single__rule {
+        gap: 20px;
+    }
+    
+    .service__single__rule p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .title_h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    
+    .title_span {
+        font-size: 18px;
+    }
+    
+    .service__cards {
+        margin-top: 60px;
+        gap: 15px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .service__single__card h6 {
+        font-size: 16px;
+    }
+    
+    img.service_icon1, img.service_icon2 {
+        width: 54px;
+    }
+    
+    img.service_icon3 {
+        width: 84px;
+    }
+    
+    img.service_icon4 {
+        width: 52px;
+    }
+    
+    img.service_icon5 {
+        width: 59px;
+    }
+    
+    .service__single__card {
+        padding: 34px 12px 12px;
+    }
+    
+    section#service__area {
+        margin-bottom: 68px;
+    }
+
+    #fleet__area {
+        padding: 45px 0 35px;
+        margin-bottom: 60px;
+    }
+    
+    .fleet__single__rule img {
+        width: 40px;
+    }
+    
+    .fleet__single__rule {
+        gap: 25px;
+    }
+    
+    .fleet__single__rule h6 {
+        font-size: 20px;
+    }
+    
+    .fleet__content a {
+        margin-top: 38px;
+        width: 130px;
+        border-radius: 6px;
+    }
+
+    .booking__card__content {
+        padding: 12px 14px 18px;
+    }
+    
+    .booking__card__content p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .booking__card__content h4 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 12px;
+    }
+    
+    .booking__card__btn {
+        margin-top: 21px;
+        gap: 15px;
+    }
+    
+    .booking__card__btn a {
+        height: 40px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+    p.para.para4 {
+        margin-top: 39px;
+    }
+    
+    p.para.para1 {
+        /* margin-bottom: 44px; */
+    }
+
+    p.para.para2 {
+        margin-bottom: 0px;
+    }
+
+    section#booking__area {
+        margin-bottom: 68px;
+    }
+    
+    .testimonial__content > h6 {
+        font-size: 19px;
+    }
+    
+    .testimonial__card {
+        margin-top: 15px;
+    }
+    
+    .testimonial__user {
+        margin-top: 18px;
+    }
+    
+    .testimonial__user {
+        gap: 10px;
+    }
+
+    .testimonial__user img {
+        width: 68px !important;
+    }
+
+    .user__name a {
+        font-size: 20px;
+    }
+    
+    .user__name h6 {
+        font-size: 18px;
+    }
+    
+    .testimonial__card .owl-dots {
+        gap: 6px;
+    }
+
+    .testimonial__card .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+    }
+
+    section#testimonial__area {
+        padding: 35px 0px 46px;
+    }
+
+    .join__play__btn {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .join__play__btn a {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    #join__area {
+        margin-bottom: 55px;
+        padding: 50px 0 50px;
+    }
+
+    .join__card {
+        padding: 30px 20px 30px 30px;
+    }
+    s
+    .blog__card__content {
+        padding: 10px 8px 22px 10px;
+    }
+    
+    .blog__card__content span {
+        font-size: 15px;
+        line-height: 20px;
+        display: inline-block;
+    }
+    
+    .blog__card__content h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .blog__card__content a {
+        width: 118px;
+        height: 43px;
+        border-radius: 6px;
+    }
+
+    .blog__card__content {
+        padding: 8px 10px 24px 10px;
+    }
+
+    img.c_logo {
+        width: 180px;
+    }
+    
+    .number h5 {
+        font-size: 20px;
+    }
+    
+    .number a {
+        font-size: 13px;
+    }
+    
+    img.c_phone {
+        width: 40px;
+    }
+    
+    img.c_mail {
+        width: 35px;
+    }
+    
+    img.location {
+        width: 25px;
+    }
+    
+    .contact__card {
+        gap: 12px;
+        justify-content: start;
+    }
+    
+    section#contact__area {
+        padding: 35px 0 15px;
+    }
+
+    footer#footer__area {
+        padding: 60px 0 18px;
+    }
+    
+    .footer__card2 {
+        margin-left: 0px;
+    }
+
+    .footer__text {
+        padding: 15px;
+        height: 50px;
+    }
+    
+    .all__social a {
+        border-radius: 10px;
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+    
+    .all__social {
+        gap: 12px;
+    }
+    
+    .footer__card > ul li a {
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+
+    .footer__social h6 {
+        font-size: 20px;
+    }
+
+    .footer__card > h6 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .footer__text button {
+        background: transparent;
+        width: 24px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .offcanvas-area {
+        width: 100%;
+    }
+
+    .service__cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .service__single__card {
+        border-radius: 15px;
+    }
+
+    .join__play__btn {
+        width: 92px;
+        height: 92px;
+    }
+
+    .aboard__content h6 {
+        line-height: 23px;
+    }
+
+    .join__play__btn a {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .aboard__content {
+        max-width: 100%;
+    }
+}
+
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 540px;
+    }
+
+}
